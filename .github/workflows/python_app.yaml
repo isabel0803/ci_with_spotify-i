@@ -65,3 +65,8 @@ jobs:
     - name: Format with ruff
       run: |
         uvx ruff format 
+    
+    # Type checking with ruff
+    - name: Type check with ruff
+      run: |
+        uvx ty check
