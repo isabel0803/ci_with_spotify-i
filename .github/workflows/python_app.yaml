@@ -46,7 +46,7 @@ jobs:
     # TODO: Replace the run block, using `uv` to sync the environment
     - name: Install dependencies
       run: |
-        uv sync -r dev
+        uv sync
 
     # This step runs unit tests with pytest
     # TODO: Update the run block. Use: uv run -m pytest
